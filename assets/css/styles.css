@@ -29,7 +29,7 @@ body {
   border: 3px solid #fff;
   background-color: #fff;
   padding: 10px 30px;
-  margin-top: 0px;
+  margin-top: 15px;
   font-weight: 600;
   color: #1560fb;
 }
@@ -114,5 +114,11 @@ section {
 .splash-box h3 {
   display: inline-block;
   line-height: 100px;
+}
+
+@media (min-width: 576px) {
+  .btn.btn-primary.btn-splash {
+    margin-top: 0;
+  }
 }
 
